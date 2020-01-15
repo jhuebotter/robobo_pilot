@@ -46,5 +46,5 @@ python model_control.py
 ```
 By default, a dummy model is loaded and starts moving the robot. In general, the function load_model() is waiting for further models to be implemented. Each model object should have able to action = model.predict(state) where state is a numpy array of infrared sensor readings normalized between 0.0 and 1.0 in the same order as the SENSORS constant and action is a list or tuple of two values between -1.0 and 1.0.
 
-
+By default, a new results directory will be created with a timestamp of the script execution. This directory contains a summary of the run in a results.csv and any figures that may have been created along the way.
 
