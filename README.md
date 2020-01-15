@@ -1,4 +1,4 @@
-# Pobobo Pilot
+# Robobo Pilot
 
 Robobo Pilot is an addition to the Robobo.py library used to create programs for the Robobo educational robot (http://www.theroboboproject.com) in the Python language.
 
