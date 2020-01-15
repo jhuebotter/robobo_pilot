@@ -171,7 +171,7 @@ def main(save_results=True):
             t_1 = t
 
             reward = get_reward(rSpeed, lSpeed, state, delta)
-            cum_reward += reward
+            cum_reward += reward * delta
             result = dict(t=t, delta=delta, state=state, reward=reward, cum_reward=cum_reward,
                           rSpeed=rSpeed, lSpeed=lSpeed)
             state_dict = dict(zip(SENSORS, list(state)))
